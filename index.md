@@ -1,6 +1,6 @@
 ---
 layout: default
-title: # Applied Intelligence in Practice: Engineering Notes by Cadabra
+title: # Cadabra Engineering Notes
 ---
 
 # Applied Intelligence in Practice: Engineering Notes by Cadabra
