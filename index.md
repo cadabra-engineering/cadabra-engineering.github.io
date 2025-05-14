@@ -94,3 +94,11 @@ Each entry includes:
 
 Let us know if you use any of these in production — or build something cooler with it.  
 We’re happy to link back.
+
+---
+
+### 🔗 Explore more
+
+- 🌐 [cadabra.studio](https://cadabra.studio/)
+- 📰 [Medium Blog](https://cadabrastudio.medium.com/)
+- 📚 [Notion Library](https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ec1c04b383f2?pvs=4)
