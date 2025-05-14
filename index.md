@@ -3,11 +3,6 @@ layout: default
 title: Cadabra Engineering Notes
 ---
 
----
-layout: default
-title: Cadabra Engineering Notes
----
-
 # ⚙️ Cadabra Engineering Notes
 
 Technical patterns, practical insights, and AI-native approaches — from research to runtime.
