@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Cadabra Engineering Notes
+title: # Applied Intelligence in Practice: Engineering Notes by Cadabra
 ---
 
-# ⚙️ Cadabra Engineering Notes
+# Applied Intelligence in Practice: Engineering Notes by Cadabra
 
 Technical patterns, practical insights, and AI-native approaches — from research to runtime.
 
