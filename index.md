@@ -1,4 +1,9 @@
-# Applied Intelligence in Practice: Engineering Notes by Cadabra
+---
+layout: default
+title: Cadabra Engineering Notes
+---
+
+## Applied Intelligence in Practice: Engineering Notes by Cadabra
 
 Technical patterns, practical insights, and AI-native approaches — from research to runtime.
 
