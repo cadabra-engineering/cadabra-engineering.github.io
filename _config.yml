@@ -3,3 +3,5 @@ description: Reframing software delivery through contextual intelligence — pat
 remote_theme: jekyll/minima
 markdown: kramdown
 google_site_verification: SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE
+plugins:
+  - jekyll-sitemap
