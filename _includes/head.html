@@ -1,3 +1,8 @@
 {% if site.google_site_verification %}
 <meta name="google-site-verification" content="SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE" />
 {% endif %}
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ page.title | escape }}" />
+<meta property="og:description" content="{{ site.description | escape }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
