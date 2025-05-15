@@ -5,3 +5,5 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
 google_site_verification: SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE
+url: "https://cadabra-engineering.github.io"
+baseurl: ""
