@@ -1,8 +1,39 @@
-{% if site.google_site_verification %}
-<meta name="google-site-verification" content="SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE" />
-{% endif %}
+{%- if site.google_site_verification -%}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{%- endif -%}
+
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="{{ page.url | absolute_url }}">
-<meta property="og:title" content="{{ page.title | escape }}" />
-<meta property="og:description" content="{{ site.description | escape }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8" />
+
+<title>{{ page.title }} | {{ site.title }}</title>
+<meta name="description" content="{{ site.description }}" />
+
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title | default: site.title }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:type" content="website" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+<meta name="twitter:description" content="{{ site.description }}" />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cadabra Studio",
+  "url": "https://cadabra.studio",
+  "logo": "https://cadabra.studio/logo.png",
+  "sameAs": [
+    "https://cadabrastudio.medium.com/",
+    "https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ed2288a01ae1"
+  ]
+}
+</script>
