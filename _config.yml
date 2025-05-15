@@ -1,8 +1,7 @@
 title: Cadabra Engineering Notes
 description: Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic.
-remote_theme: jekyll/minima
+theme: minima
 markdown: kramdown
-google_site_verification: SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE
-
 plugins:
   - jekyll-sitemap
+google_site_verification: SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE
