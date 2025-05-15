@@ -5,6 +5,9 @@ on:
     paths:
       - '_layouts/**'
 
+permissions:
+  contents: write
+
 jobs:
   cleanup:
     runs-on: ubuntu-latest
@@ -19,7 +22,7 @@ jobs:
         run: |
           rm -rf _layouts
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
