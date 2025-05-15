@@ -1,3 +1,4 @@
+layout: home
 ---
 title: Cadabra Engineering Notes
 ---
