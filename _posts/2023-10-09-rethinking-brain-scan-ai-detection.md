@@ -3,7 +3,7 @@ layout: post
 title: Rethinking Brain Scan AI Detection
 subtitle: Balancing detection accuracy and system robustness
 tags: [ai, brain scans, medical imaging, machine learning, model training, computer vision, healthcare technology]
-date: 2023-10-09
+date: 2025-05-20
 permalink: /posts/rethinking-brain-scan-ai-detection/
 ---
 
