@@ -54,5 +54,5 @@ We’re eager to collaborate with those who've tackled similar tradeoffs in medi
 ---
 
 _Originally published on:_  
-- [Cadabra Studio on Medium](https://cadabrastudio.medium.com/)  
+- [Cadabra Studio on Medium](https://cadabrastudio.medium.com/when-circles-confuse-the-ai-rethinking-brain-scan-detection-af5ab418c5d7)  
 - [Cadabra Insights on Notion](https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ec1c04b383f2?pvs=4)
