@@ -52,5 +52,11 @@ We believe we can reframe software delivery from the ground up, where every deci
 
 > Contact: hello@cadabra.studio  
 > More at: [https://cadabra.studio](https://cadabra.studio)
-```
+
+---
+
+### 🔗 Explore More Perspectives
+
+- 📰 [Medium Article: The Real Challenge of AI Adoption Isn’t Tech — It’s Team Psychology](https://cadabrastudio.medium.com/the-real-challenge-of-ai-adoption-isnt-tech-it-s-team-psychology-3043ddf034a7)
+- 📚 [Notion Note: Behavioral UX Strategies for Sustainable AI Adoption](https://classy-sugar-6ff.notion.site/Behavioral-UX-Strategies-for-Sustainable-AI-Adoption-1fc9b3e914038049ba0cc78d9b303fbf?pvs=73)
 
