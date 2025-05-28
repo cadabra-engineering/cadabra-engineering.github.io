@@ -52,4 +52,3 @@ We invite engineers and researchers to share their experiences and insights into
 > More at: [https://cadabra.studio](https://cadabra.studio)
 ```
 
-
