@@ -103,13 +103,3 @@ We’re happy to link back.
 - 📚 [Notion Library](https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ec1c04b383f2?pvs=4)
 ---
 
----
-
-## 🧠 Latest Engineering Posts
-
-{% for post in site.posts %}
-### [{{ post.title }}]({{ post.permalink }})
-🗓️ {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-
-
