@@ -101,5 +101,4 @@ We’re happy to link back.
 - 🌐 [cadabra.studio](https://cadabra.studio/)
 - 📰 [Medium Blog](https://cadabrastudio.medium.com/)
 - 📚 [Notion Library](https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ec1c04b383f2?pvs=4)
----
 
