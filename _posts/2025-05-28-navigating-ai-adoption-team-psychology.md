@@ -48,6 +48,8 @@ These changes helped build a culture where using AI tools became more normalized
 
 We invite engineers and researchers to share their experiences and insights into creating a psychologically safe environment for AI adoption. How do you foster team empowerment while integrating AI into your workflows?
 
+We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.
+
 > Contact: hello@cadabra.studio  
 > More at: [https://cadabra.studio](https://cadabra.studio)
 ```
