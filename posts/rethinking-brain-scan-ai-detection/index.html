@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><meta name="google-site-verification" content="SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE" /><meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8" />
+
+<title>Rethinking Brain Scan AI Detection | Cadabra Engineering Notes</title>
+<meta name="description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<link rel="canonical" href="https://cadabra-engineering.github.io/posts/rethinking-brain-scan-ai-detection/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Rethinking Brain Scan AI Detection" />
+<meta property="og:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cadabra-engineering.github.io/posts/rethinking-brain-scan-ai-detection/" />
+<meta property="og:site_name" content="Cadabra Engineering Notes" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Rethinking Brain Scan AI Detection" />
+<meta name="twitter:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cadabra Studio",
+  "url": "https://cadabra.studio",
+  "logo": "https://cadabra.studio/logo.png",
+  "sameAs": [
+    "https://cadabrastudio.medium.com/",
+    "https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ed2288a01ae1"
+  ]
+}
+</script>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Cadabra Engineering Notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/">Cadabra Engineering Notes</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Rethinking Brain Scan AI Detection</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2025-05-20T00:00:00+00:00" itemprop="datePublished">
+        May 20, 2025
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="background">Background</h2>
+
+<p>We embarked on building an AI system capable of analyzing brain scans, identifying anomalies, and aiding in understanding any detected abnormalities. The challenge was not just to train the model to “see” but to view with precision and clarity, particularly when abnormalities mimic healthy tissue visually.</p>
+
+<h2 id="what-we-tried-and-why">What We Tried (and Why)</h2>
+
+<p>Initially, we adopted a straightforward strategy: enhance model training with visual cues like circles around abnormalities in MRI scans to guide the model’s focus. The rationale was that explicit markers could enhance the learning process by highlighting anomalous regions.</p>
+
+<h2 id="what-broke-or-didnt-work">What Broke or Didn’t Work</h2>
+
+<p>The approach misfired; the model learned to detect the circles rather than the anomalies themselves.</p>
+
+<blockquote>
+  <p>📌 <em>Design Principle: Ensure training data annotations do not introduce artifacts that models might erroneously learn.</em></p>
+</blockquote>
+
+<h2 id="the-shift-we-made">The Shift We Made</h2>
+
+<p>We revised our method by removing visual annotations from training data. Instead, we manually identified and annotated regions of interest during the training process. This change necessitated significant effort but ensured that the model relied on medical data, not artificial markers.</p>
+
+<h2 id="what-worked-and-what-still-doesnt">What Worked (and What Still Doesn’t)</h2>
+
+<p>With unmarked data, the model showed high detection accuracy (80%-95%) for smaller lesions. However, performance faltered (~50% accuracy) with larger, more ambiguous damage due to diffuse boundaries and complex patterns. It’s clear where the model excels and where further refinement is needed.</p>
+
+<h2 id="tradeoffs-and-strategic-decisions">Tradeoffs and Strategic Decisions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option A</th>
+      <th>Option B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Focus on refining model for common, well-classified cases</td>
+      <td>Develop a generalized model for all cases</td>
+    </tr>
+    <tr>
+      <td>Offers quick deployment and immediate value in clinical settings</td>
+      <td>Future-proofs tool for edge cases; may delay completion</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="open-questions-were-still-exploring">Open Questions We’re Still Exploring</h2>
+
+<ul>
+  <li>How to effectively manage model switching between different types of anomalies?</li>
+  <li>What’s the best strategy for visual labeling to avoid interoperability issues?</li>
+  <li>How can we balance the tradeoffs between a general model versus specialized models?</li>
+</ul>
+
+<blockquote>
+  <p>We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.</p>
+</blockquote>
+
+<h2 id="if-youre-solving-something-similar">If You’re Solving Something Similar…</h2>
+
+<p>We’re eager to collaborate with those who’ve tackled similar tradeoffs in medical imaging or other domains to share insights and explore potential solutions.</p>
+
+<blockquote>
+  <p>Contact: hello@cadabra.studio<br />
+More at: <a href="https://cadabra.studio">https://cadabra.studio</a></p>
+</blockquote>
+
+<hr />
+
+<p><em>Originally published on:</em></p>
+<ul>
+  <li><a href="https://cadabrastudio.medium.com/when-circles-confuse-the-ai-rethinking-brain-scan-detection-af5ab418c5d7">Cadabra Studio on Medium</a></li>
+  <li><a href="https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ec1c04b383f2?pvs=4">Cadabra Insights on Notion</a></li>
+</ul>
+
+  </div>
+
+  <a class="u-url" href="/posts/rethinking-brain-scan-ai-detection/" hidden></a>
+</article>
+
+      </div>
+    </main><!-- Custom footer that hides RSS icon issue -->
+<p style="font-size: 0.9rem; color: #999;">
+  © 2025 Cadabra Engineering Notes
+</p>
+
+</body>
+
+</html>
