@@ -50,9 +50,9 @@ We invite engineers and researchers to share experiences and join the conversati
 
 > Contact: hello@cadabra.studio  
 > More at: [https://cadabra.studio](https://cadabra.studio)
-📬 Also published on:
-- [Medium](https://cadabrastudio.medium.com/what-it-really-takes-to-rebuild-an-it-company-on-ai-d2623f62c9ba)  
-- [Notion: Cadabra Insights](https://classy-sugar-6ff.notion.site/How-to-Identify-and-Fix-Workflow-Bottlenecks-Before-You-Apply-AI-2079b3e9140380a3bd5edca001af2a32?pvs=4)
+> 📬 Also published on:
+> [Medium](https://cadabrastudio.medium.com/what-it-really-takes-to-rebuild-an-it-company-on-ai-d2623f62c9ba)  
+> [Notion: Cadabra Insights](https://classy-sugar-6ff.notion.site/How-to-Identify-and-Fix-Workflow-Bottlenecks-Before-You-Apply-AI-2079b3e9140380a3bd5edca001af2a32?pvs=4)
 
 ```
 
