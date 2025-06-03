@@ -1,11 +1,11 @@
-```yaml
+---
 layout: post
 title: "Rebuilding an IT Company on AI: Insights from Cadabra Studio"
 subtitle: "Lessons from transforming an entire software development lifecycle using AI"
 tags: [ai, software development, automation, transformation, sdcl, architecture, engineering decision, ai adoption, it company, ai-ready]
 date: 2025-06-03
 permalink: /posts/rebuilding-it-company-on-ai/
-```
+---
 
 ## Background
 
