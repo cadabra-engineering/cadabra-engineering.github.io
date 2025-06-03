@@ -50,6 +50,11 @@ We invite engineers and researchers to share experiences and join the conversati
 
 We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.
 
+You may also find these insights useful:
+
+- [Navigating AI Adoption and Team Psychology](/posts/navigating-ai-adoption-team-psychology/)
+- [Rethinking Brain Scan AI Detection](/posts/rethinking-brain-scan-ai-detection/)
+
 > Contact: hello@cadabra.studio  
 > More at: [https://cadabra.studio](https://cadabra.studio)
 
