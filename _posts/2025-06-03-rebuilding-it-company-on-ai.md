@@ -48,11 +48,17 @@ The transformation led to significant timeline reductions: MVP timelines shrank 
 
 We invite engineers and researchers to share experiences and join the conversation on transforming organizations using AI. Let's explore ideas and solutions for a mutually beneficial AI-driven future.
 
+We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.
+
 > Contact: hello@cadabra.studio  
 > More at: [https://cadabra.studio](https://cadabra.studio)
-> 📬 Also published on:
-> [Medium](https://cadabrastudio.medium.com/what-it-really-takes-to-rebuild-an-it-company-on-ai-d2623f62c9ba)  
-> [Notion: Cadabra Insights](https://classy-sugar-6ff.notion.site/How-to-Identify-and-Fix-Workflow-Bottlenecks-Before-You-Apply-AI-2079b3e9140380a3bd5edca001af2a32?pvs=4)
+
+---
+
+### 🔗 Explore More Perspectives
+
+- 📰 [Medium Article: What It Really Takes to Rebuild an IT Company on AI](https://cadabrastudio.medium.com/what-it-really-takes-to-rebuild-an-it-company-on-ai-d2623f62c9ba)
+- 📚 [Notion Note: How to Identify and Fix Workflow Bottlenecks Before You Apply AI](https://classy-sugar-6ff.notion.site/How-to-Identify-and-Fix-Workflow-Bottlenecks-Before-You-Apply-AI-2079b3e9140380a3bd5edca001af2a32?pvs=4)
 
 ```
 
