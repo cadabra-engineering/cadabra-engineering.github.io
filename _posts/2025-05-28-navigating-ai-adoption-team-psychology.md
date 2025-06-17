@@ -2,9 +2,10 @@
 layout: post
 title: "Navigating AI Adoption: The Real Challenge is Team Psychology"
 subtitle: "The journey to seamless AI integration lies in addressing psychological barriers, not just technical ones."
-tags: [ai adoption, team psychology, cultural change, leadership, software development, internal efficiency, trust building, agile transformation]
+tags: [ai adoption, team psychology, cultural change, leadership, software development, internal efficiency, trust building, agile transformation, ai-ready-ux, human-ai-interaction]
 date: 2025-05-28
 permalink: /posts/navigating-ai-adoption-team-psychology/
+description: "Case study: addressing psychological and cultural barriers in AI adoption within software teams."
 ---
 
 
