@@ -2,9 +2,10 @@
 layout: post
 title: "Rebuilding an IT Company on AI: Insights from Cadabra Studio"
 subtitle: "Lessons from transforming an entire software development lifecycle using AI"
-tags: [ai, software development, automation, transformation, sdcl, architecture, engineering decision, ai adoption, it company, ai-ready]
+tags: [ai, software development, automation, transformation, sdcl, architecture, engineering decision, ai adoption, it company, ai-ready, ai-ready-ux, human-ai-interaction, organizational-change]
 date: 2025-06-03
 permalink: /posts/rebuilding-it-company-on-ai/
+description: "Insights from Cadabra Studio's journey transforming from a traditional IT company to an AI-native organization by embedding AI into every layer of the SDLC."
 ---
 
 ## Background
