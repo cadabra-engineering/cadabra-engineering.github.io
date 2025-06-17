@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"><meta name="google-site-verification" content="SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE" /><meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8" />
+
+<title>Developing Explainable AI for Spine MRI: Key Decisions and Trade-offs | Cadabra Engineering Notes</title>
+<meta name="description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<link rel="canonical" href="https://cadabra-engineering.github.io/posts/developing-explainable-ai-for-spine-mri/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Developing Explainable AI for Spine MRI: Key Decisions and Trade-offs" />
+<meta property="og:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cadabra-engineering.github.io/posts/developing-explainable-ai-for-spine-mri/" />
+<meta property="og:site_name" content="Cadabra Engineering Notes" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Developing Explainable AI for Spine MRI: Key Decisions and Trade-offs" />
+<meta name="twitter:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cadabra Studio",
+  "url": "https://cadabra.studio",
+  "logo": "https://cadabra.studio/logo.png",
+  "sameAs": [
+    "https://cadabrastudio.medium.com/",
+    "https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ed2288a01ae1"
+  ]
+}
+</script>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Cadabra Engineering Notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/">Cadabra Engineering Notes</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Developing Explainable AI for Spine MRI: Key Decisions and Trade-offs</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2025-06-10T00:00:00+00:00" itemprop="datePublished">
+        Jun 10, 2025
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="background">Background</h2>
+
+<p>The task of interpreting spine MRIs, especially for lumbar spinal stenosis (LSS), presents significant challenges due to its time-consuming nature, the need for specialist expertise, and significant variability in interpretation between radiologists. The core problem was to reduce this variability through an AI system that provides standardized and reproducible analyses without altering existing clinical workflows.</p>
+
+<h2 id="what-we-tried-and-why">What We Tried (and Why)</h2>
+
+<p>Our initial strategy involved creating a structured AI pipeline with three key stages: segmentation, binary classification, and severity assessment. The segmentation stage utilized a U-Net model to identify anatomical structures, establishing a baseline for the MRI scans. The binary classification stage used a multi-label classifier to detect stenosis in specific areas, while the severity assessment stage applied another model to evaluate the severity of detected stenosis, leveraging both segmentation masks and the original axial images. These steps were essential to facilitate a systematic approach and ensure the AI solutions integrated seamlessly into the radiologists’ existing practices.</p>
+
+<h2 id="what-broke-or-didnt-work">What Broke or Didn’t Work</h2>
+
+<p>Despite the comprehensive approach, one challenge was achieving a balance between speed and transparency. The addition of Grad-CAM visualizations, while crucial for explainability, increased the inference time significantly. This posed a risk to workflow efficiency, highlighting the delicate balance between speed and comprehensibility.</p>
+
+<blockquote>
+  <p>📌 <em>Takeaway: Balancing transparency and efficiency is critical in clinical AI deployment.</em></p>
+</blockquote>
+
+<h2 id="the-shift-we-made">The Shift We Made</h2>
+
+<p>To resolve this, we introduced a dual-mode operation: a “quick read” with minimized visual outputs for fast decisions and a full explainable AI (XAI) mode for more complex or uncertain scenarios. This adjustment allowed us to maintain crucial performance metrics and client trust, while accommodating different clinical priorities.</p>
+
+<h2 id="what-worked-and-what-still-doesnt">What Worked (and What Still Doesn’t)</h2>
+
+<p>Our methods achieved strong AUROC performance in central stenosis classification, highly accurate measurements, and significantly increased clinician preference for our tools over baseline systems. The adoption of visual explanations played a pivotal role in fostering trust and increasing daily usage. However, the latency issue during high-volume workflows still needed optimization.</p>
+
+<h2 id="tradeoffs-and-strategic-decisions">Tradeoffs and Strategic Decisions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option A</th>
+      <th>Option B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Full XAI mode for all cases</td>
+      <td>Dual-mode with quick read option</td>
+    </tr>
+    <tr>
+      <td>Transparency at the cost of speed</td>
+      <td>Balance speed and explainability</td>
+    </tr>
+    <tr>
+      <td>Ensures maximum clinician trust</td>
+      <td>Provides flexibility to clinicians</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="open-questions-were-still-exploring">Open Questions We’re Still Exploring</h2>
+
+<ul>
+  <li>How much explainability is necessary in clinical AI?</li>
+  <li>When does the need for visual trust outweigh the need for speed?</li>
+  <li>How do we adequately measure and optimize trust within AI tools?</li>
+</ul>
+
+<h2 id="if-youre-solving-something-similar">If You’re Solving Something Similar…</h2>
+
+<p>We welcome collaboration with others tackling similar issues in medical AI. There’s much to explore in balancing AI explainability with practical clinical utility.</p>
+
+<blockquote>
+  <p>Contact: hello@cadabra.studio<br />
+More at: <a href="https://cadabra.studio">https://cadabra.studio</a></p>
+</blockquote>
+
+<p>At Cadabra Studio, <strong>we believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.</strong></p>
+
+<p>👉 Read more in our extended article on <a href="https://cadabrastudio.medium.com/building-explainable-ai-for-spine-mri-from-architecture-to-adoption-5f408e964cb1">Medium</a>.<br />
+👉 Explore applied insights on <a href="https://classy-sugar-6ff.notion.site/AI-ready-UX-Blocks-for-Medical-Imaging-20e9b3e9140380088563f67bf6e90a8d?source=copy_link">Cadabra Insights (Notion)</a>.</p>
+
+  </div>
+
+  <a class="u-url" href="/posts/developing-explainable-ai-for-spine-mri/" hidden></a>
+</article>
+
+      </div>
+    </main><!-- Custom footer that hides RSS icon issue -->
+<p style="font-size: 0.9rem; color: #999;">
+  © 2025 Cadabra Engineering Notes
+</p>
+
+</body>
+
+</html>
