@@ -6,7 +6,6 @@ tags: [vibe-coding, ai tools, mvp, product development, software engineering, hy
 date: 2025-06-19
 permalink: /posts/accelerating-mvp-development-with-vibe-coding-ai-tools/
 description: How Cadabra Studio used vibe-coding and AI-assisted tools to build an MVP 60% faster — tradeoffs, lessons, and workflow insights for AI-first teams.
-author: Cadabra Studio
 canonical_url: https://cadabra-engineering.github.io/posts/accelerating-mvp-development-with-vibe-coding-ai-tools/
 ---
 
