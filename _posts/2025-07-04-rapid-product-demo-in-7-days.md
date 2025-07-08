@@ -5,7 +5,7 @@ subtitle: Balancing speed and functionality when delivering under tight deadline
 tags: [rapid prototyping, agile development, product demo, ai tools, project management, user experience, fast delivery, tradeoffs, product development, startup]
 date: 2025-07-04
 permalink: /posts/rapid-product-demo-in-7-days/
-description: Rapid prototyping and UX-навігація для AI-бізнесів: how to deliver investor-ready demos fast with an AI-ready UX-архітектор mindset.
+description: "Rapid prototyping and UX-навігація для AI-бізнесів: how to deliver investor-ready demos fast with an AI-ready UX-архітектор mindset."
 ---
 
 ## Background
