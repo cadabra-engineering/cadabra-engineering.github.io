@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><meta name="google-site-verification" content="SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE" /><meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8" />
+
+<title>Augmenting Remote Patient Monitoring with Contextual AI | Cadabra Engineering Notes</title>
+<meta name="description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<link rel="canonical" href="https://cadabra-engineering.github.io/posts/augmenting-remote-monitoring-with-ai/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Augmenting Remote Patient Monitoring with Contextual AI" />
+<meta property="og:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cadabra-engineering.github.io/posts/augmenting-remote-monitoring-with-ai/" />
+<meta property="og:site_name" content="Cadabra Engineering Notes" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Augmenting Remote Patient Monitoring with Contextual AI" />
+<meta name="twitter:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cadabra Studio",
+  "url": "https://cadabra.studio",
+  "logo": "https://cadabra.studio/logo.png",
+  "sameAs": [
+    "https://cadabrastudio.medium.com/",
+    "https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ed2288a01ae1"
+  ]
+}
+</script>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Cadabra Engineering Notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/">Cadabra Engineering Notes</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Augmenting Remote Patient Monitoring with Contextual AI</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2025-07-18T00:00:00+00:00" itemprop="datePublished">
+        Jul 18, 2025
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="background">Background</h2>
+
+<p>Integrating AI into a Remote Patient Monitoring (RPM) platform presents challenges due to the necessity of aligning AI features with the needs of physicians and patients while navigating the complexities of compliance and data privacy.</p>
+
+<blockquote>
+  <p>“We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.” — <em>Cadabra Studio</em></p>
+</blockquote>
+
+<h2 id="what-we-tried-and-why">What We Tried (and Why)</h2>
+
+<p>Our approach involved enhancing the engineering team’s productivity with AI through tools like Cursor while maintaining strict security standards. The primary focus, however, was embedding AI interactively within the RPM platform, creating distributed, contextual AI touchpoints on critical interfaces rather than a single AI feature.</p>
+
+<h2 id="what-broke-or-didnt-work">What Broke or Didn’t Work</h2>
+
+<p>The challenge was in balancing automation with meaningful doctor control, and the regulatory complexities of accessing real-time patient data. Vendor lock-in posed sustainability issues as reliance on a single Large Language Models (LLM) provider wasn’t feasible in a healthcare setting.</p>
+
+<blockquote>
+  <p>📌 <em>AI systems in healthcare need to empower user decision-making, not replace it.</em></p>
+</blockquote>
+
+<h2 id="the-shift-we-made">The Shift We Made</h2>
+
+<p>We designed AI features that allow for doctor interaction and co-creation, embedding AI modules contextually across interfaces. We also moved towards a vendor-flexible approach, enabling dynamic integration with multiple model types—local, cloud-based, proprietary, and open-source.</p>
+
+<h2 id="what-worked-and-what-still-doesnt">What Worked (and What Still Doesn’t)</h2>
+
+<p>The contextual AI modules improved interaction without disrupting workflow, providing summarization and report organization capabilities. However, navigating the compliant use and retention of patient audio and data in real-time remains an ongoing challenge.</p>
+
+<h2 id="tradeoffs-and-strategic-decisions">Tradeoffs and Strategic Decisions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option A</th>
+      <th>Option B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Use a single LLM provider</td>
+      <td>Integrate multiple dynamic models</td>
+    </tr>
+    <tr>
+      <td>Simplicity of implementation but risk of vendor lock-in</td>
+      <td>Increased flexibility and compliance, at the cost of complexity</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="open-questions-were-still-exploring">Open Questions We’re Still Exploring</h2>
+
+<ul>
+  <li>How to effectively manage model orchestration across sensitive data domains?</li>
+  <li>What are best practices for ensuring context control in AI systems?</li>
+  <li>How to further develop trust in AI-assisted workflows?</li>
+</ul>
+
+<h2 id="if-youre-solving-something-similar">If You’re Solving Something Similar…</h2>
+
+<p>If your projects intersect with AI and sensitive domains like healthcare, we’d love to hear your approaches to model orchestration, context control, and trust-building in user experiences.</p>
+
+<blockquote>
+  <p>Contact: hello@cadabra.studio<br />
+More at: <a href="https://cadabra.studio">https://cadabra.studio</a></p>
+</blockquote>
+
+<hr />
+
+<h2 id="-keep-exploring">🧠 Keep Exploring</h2>
+
+<p>If this topic resonated with your work, check out more insights from our team:</p>
+
+<ul>
+  <li>📰 <strong>Medium</strong> — <a href="https://cadabrastudio.medium.com/augmenting-a-remote-patient-monitoring-platform-with-ai-beyond-voice-assistants-3b0e27f79212">Augmenting a Remote Patient Monitoring Platform with AI — Beyond Voice Assistants</a></li>
+  <li>📚 <strong>Notion</strong> — <a href="https://classy-sugar-6ff.notion.site/Applied-Intelligence-Patterns-in-Healthcare-AI-UX-2389b3e9140380c299fef8bf6add3f49?pvs=143">Applied Intelligence Patterns in Healthcare AI UX</a></li>
+</ul>
+
+  </div>
+
+  <a class="u-url" href="/posts/augmenting-remote-monitoring-with-ai/" hidden></a>
+</article>
+
+      </div>
+    </main><!-- Custom footer that hides RSS icon issue -->
+<p style="font-size: 0.9rem; color: #999;">
+  © 2025 Cadabra Engineering Notes
+</p>
+
+</body>
+
+</html>
