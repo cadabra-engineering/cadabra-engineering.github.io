@@ -60,3 +60,4 @@ If this topic resonated with your work, check out more insights from our team:
 
 - 📰 **Medium** — [Augmenting a Remote Patient Monitoring Platform with AI — Beyond Voice Assistants](https://cadabrastudio.medium.com/augmenting-a-remote-patient-monitoring-platform-with-ai-beyond-voice-assistants-3b0e27f79212)  
 - 📚 **Notion** — [Applied Intelligence Patterns in Healthcare AI UX](https://classy-sugar-6ff.notion.site/Applied-Intelligence-Patterns-in-Healthcare-AI-UX-2389b3e9140380c299fef8bf6add3f49?pvs=143)
+🧩 **GitHub Pages** — [Developing Explainable AI for Spine MRI: Key Decisions and Trade-offs](https://cadabra-engineering.github.io/posts/developing-explainable-ai-for-spine-mri/)
