@@ -54,3 +54,6 @@ We invite engineers and researchers facing similar challenges in aligning techni
 🔗 **Explore More Perspectives**  
 📰 Medium Article: [When Vibe Coding Turns Into a Business Headache](https://cadabrastudio.medium.com/when-vibe-coding-turns-into-a-business-headache-05f802f26d50)  
 📚 Notion Note: [UX Navigation Protocols for AI-Driven Product Development](https://classy-sugar-6ff.notion.site/UX-Navigation-Protocols-for-AI-Driven-Product-Development-2799b3e914038045a91fda69c399231b?source=copy_link)  
+🧩 Related Post:  
+[Accelerating MVP Development with Vibe-Coding and AI Tools](/posts/accelerating-mvp-development-with-vibe-coding-and-ai-tools/)
+
