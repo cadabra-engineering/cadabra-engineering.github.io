@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><meta name="google-site-verification" content="SHFy-UoWVPh0D6sK111wJwzEdpekB4YDsZfx_VRKGBE" /><meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8" />
+
+<title>Achieving Design Fidelity in Code Conversion with AI | Cadabra Engineering Notes</title>
+<meta name="description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<link rel="canonical" href="https://cadabra-engineering.github.io/posts/achieving-design-fidelity-in-code-conversion-with-ai/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Achieving Design Fidelity in Code Conversion with AI" />
+<meta property="og:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cadabra-engineering.github.io/posts/achieving-design-fidelity-in-code-conversion-with-ai/" />
+<meta property="og:site_name" content="Cadabra Engineering Notes" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Achieving Design Fidelity in Code Conversion with AI" />
+<meta name="twitter:description" content="Reframing software delivery through contextual intelligence — patterns, infra, and prompt logic." />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cadabra Studio",
+  "url": "https://cadabra.studio",
+  "logo": "https://cadabra.studio/logo.png",
+  "sameAs": [
+    "https://cadabrastudio.medium.com/",
+    "https://classy-sugar-6ff.notion.site/Cadabra-Insights-Applied-Intelligence-in-Practice-1f29b3e9140380749410ed2288a01ae1"
+  ]
+}
+</script>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Cadabra Engineering Notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/">Cadabra Engineering Notes</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Achieving Design Fidelity in Code Conversion with AI</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="2025-10-01T00:00:00+00:00" itemprop="datePublished">
+        Oct 1, 2025
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="background">Background</h2>
+
+<p>Transferring design into code, especially in the frontend of digital products, can be deceptively complex. Without a well-structured process, developers face numerous rounds of bug reports, QA scrutiny, and potential frustration from stakeholders. Achieving design fidelity is crucial but can be risky without a strategic approach involving AI tools.</p>
+
+<h2 id="what-we-tried-and-why">What We Tried (and Why)</h2>
+
+<p>Our original strategy was to establish a detailed and disciplined process from the outset. We introduced a structured architecture and rule set for components, naming conventions, and file organization. Emphasizing predefined global styles, we prioritized reusability and consistency by establishing tokens for colors, typography, and spacing. We supplemented the AI with comprehensive context through full design screenshots and code references from Figma-to-code plugins to guide it away from improvisation.</p>
+
+<h2 id="what-broke-or-didnt-work">What Broke or Didn’t Work</h2>
+
+<p>An unstructured or laissez-faire approach allows AI to create disorganized code structures and styles, leading to a burdensome amount of fixes. Relying solely on AI improvisation without providing a detailed guide often resulted in increased QA noise and inconsistent design implementation.</p>
+
+<blockquote>
+  <p>📌 <em>Takeaway: Providing a robust framework for AI can mitigate the need for extensive post-coding adjustments.</em></p>
+</blockquote>
+
+<h2 id="the-shift-we-made">The Shift We Made</h2>
+
+<p>We decided to implement a component-first strategy where new components were built by AI before assembling screen layouts. We enforced strict adherence to existing style guides and architecture, ensuring that AI reused existing components rather than creating new, unnecessary variations.</p>
+
+<h2 id="what-worked-and-what-still-doesnt">What Worked (and What Still Doesn’t)</h2>
+
+<p>By structuring the process to give AI maximum context — through design references and precise guidelines — we reduced discrepancies and QA issues. The project benefitted from unified styles and an expanded reusable component library. However, the approach was initially perceived as slow and requires discipline from both developers and designers.</p>
+
+<h2 id="tradeoffs-and-strategic-decisions">Tradeoffs and Strategic Decisions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option A</th>
+      <th>Option B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Structured AI-driven process</td>
+      <td>Conventional manual corrections process</td>
+    </tr>
+    <tr>
+      <td>More upfront planning and alignment; consistent outcome</td>
+      <td>Faster start but more iterative fixes; potential for design mishmatches</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="open-questions-were-still-exploring">Open Questions We’re Still Exploring</h2>
+
+<ul>
+  <li>How can we further integrate Figma exports with AI to eliminate human translation?</li>
+  <li>What is the optimal level of trust in AI for maintaining design fidelity?</li>
+  <li>How can we ensure early architectural decisions do not adversely impact the entire product?</li>
+</ul>
+
+<h2 id="if-youre-solving-something-similar">If You’re Solving Something Similar…</h2>
+
+<p>We welcome collaboration and discussion with engineers or researchers tackling similar challenges in design to code transition processes. Share your insights or join the conversation.</p>
+
+<blockquote>
+  <p>Contact: hello@cadabra.studio<br />
+More at: <a href="https://cadabra.studio">https://cadabra.studio</a></p>
+</blockquote>
+
+<hr />
+
+<p>🔗 <strong>Explore More Perspectives</strong><br />
+📰 Medium Article: <a href="https://cadabrastudio.medium.com/how-we-transfer-design-to-code-without-drowning-in-fixes-07413dc2c6dc">When Vibe Coding Turns Into a Business Headache</a><br />
+📚 Notion Note: <a href="https://classy-sugar-6ff.notion.site/Cadabra-Protocols-AI-Ready-Development-Patterns-2849b3e9140380b2ad8bca9a4ac3f1f8?source=copy_link">UX Navigation Protocols for AI-Driven Product Development</a><br />
+🧩 Related Post: <a href="https://cadabra-engineering.github.io/posts/transforming-vibe-coding-into-a-business-asset/">Transforming Vibe Coding into a Business Asset</a></p>
+
+<blockquote>
+  <p><em>We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.</em></p>
+</blockquote>
+
+  </div>
+
+  <a class="u-url" href="/posts/achieving-design-fidelity-in-code-conversion-with-ai/" hidden></a>
+</article>
+
+      </div>
+    </main><!-- Custom footer that hides RSS icon issue -->
+<p style="font-size: 0.9rem; color: #999;">
+  © 2025 Cadabra Engineering Notes
+</p>
+
+</body>
+
+</html>
