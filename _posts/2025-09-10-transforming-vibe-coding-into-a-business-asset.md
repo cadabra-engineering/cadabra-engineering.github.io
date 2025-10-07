@@ -57,4 +57,5 @@ We invite engineers and researchers facing similar challenges in aligning techni
 🧩 Related Post:  
 [Accelerating MVP Development with Vibe-Coding and AI Tools (GitHub Pages)](https://cadabra-engineering.github.io/posts/accelerating-mvp-development-with-vibe-coding-ai-tools/)
 
+> *We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.*
 
