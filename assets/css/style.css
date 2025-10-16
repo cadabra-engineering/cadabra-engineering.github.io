@@ -167,7 +167,7 @@ table td { border: 1px solid #e7e7e7; }
   .site-nav #nav-trigger:checked ~ label[for=nav-trigger] .menu-icon::before { content: "\f00d"; font-size: 1.5em; }
   .site-nav #nav-trigger:checked ~ .nav-items { display: block; padding-bottom: 5px; }
   .site-nav #nav-trigger:checked ~ .nav-items .nav-item { margin-left: 20px; padding: 5px 10px; }
-  .site-nav .nav-item { display: block; padding: 5px 0; color: #414141; line-height: 1.5; } }
+  .site-nav .nav-item { display: block; margin-right: 15px; padding: 5px 0; color: #414141; line-height: 1.5; } }
 
 /** Site footer */
 .site-footer { border-top: 1px solid #e7e7e7; padding: 30px 0; }
