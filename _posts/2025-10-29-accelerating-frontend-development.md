@@ -59,5 +59,5 @@ We're eager to collaborate with others exploring AI-driven design to development
 ### 🔗 Explore More Perspectives
 
 📰 Medium Article: [Why Beautiful Figma Files Can Still Break Your Frontend](https://cadabrastudio.medium.com/why-beautiful-figma-files-can-still-break-your-frontend-1f2a0ec3b907)  
-📚 Notion Note: *coming soon*  
+📚 Notion Note: [Systemize Figma for AI-Ready Frontend Development](https://classy-sugar-6ff.notion.site/Systemize-Figma-for-AI-Ready-Frontend-Development-2a29b3e9140380bfa1f6c9aa637a638d?source=copy_link)
 🧩 Related Post: [Achieving Design Fidelity in Code Conversion with AI](https://cadabra-engineering.github.io/posts/achieving-design-fidelity-in-code-conversion-with-ai/)
