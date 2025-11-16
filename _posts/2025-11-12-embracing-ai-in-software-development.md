@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Embracing AI in Software Development: Balancing Efficiency and Human Insight
-subtitle: A hybrid model for integrating AI effectively in the development pipeline
+title: "Embracing AI in Software Development: Balancing Efficiency and Human Insight"
+subtitle: "A hybrid model for integrating AI effectively in the development pipeline"
 tags: [ai, software development, hybrid model, workflow optimization, product development, automation, user experience, engineering decision, productivity]
 date: 2025-11-12
 permalink: /posts/embracing-ai-in-software-development/
