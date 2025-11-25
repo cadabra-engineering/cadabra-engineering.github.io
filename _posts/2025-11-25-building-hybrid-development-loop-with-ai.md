@@ -3,7 +3,7 @@ layout: post
 title: Building a Hybrid Development Loop with AI
 subtitle: Integrating AI meaningfully without losing efficiency or creativity
 tags: [ai, automation, engineering, development, integration, system-thinking, creativity, collaboration, processes, team-alignment, hybrid-workflow, ai-integration, ux-strategy]
-date: 2025-11-26
+date: 2025-11-25
 permalink: /posts/building-hybrid-development-loop-with-ai/
 ```
 
