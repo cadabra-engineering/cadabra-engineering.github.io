@@ -1,11 +1,11 @@
-```yaml
+---
 layout: post
 title: Building a Hybrid Development Loop with AI
 subtitle: Integrating AI meaningfully without losing efficiency or creativity
 tags: [ai, automation, engineering, development, integration, system-thinking, creativity, collaboration, processes, team-alignment, hybrid-workflow, ai-integration, ux-strategy]
-date: 2025-11-25
+date: 2025-11-26
 permalink: /posts/building-hybrid-development-loop-with-ai/
-```
+---
 
 ## Background
 
@@ -17,7 +17,7 @@ Initially, we incorporated AI tools with the expectation of accelerating speed a
 
 ## What Broke or Didn’t Work
 
-Our original implementation didn't foster better collaboration. While AI facilitated faster individual output, it inadvertently increased the gap between different teams, emphasizing the difference between skilled and unskilled work.
+Our original implementation didn’t foster better collaboration. While AI facilitated faster individual output, it inadvertently increased the gap between different teams, emphasizing the difference between skilled and unskilled work.
 
 > 📌 *Takeaway: Successful AI integration requires a focus on workflow alignment, not merely task acceleration.*
 
@@ -38,8 +38,8 @@ Our new approach led to tangible improvements: designers elevated to art directo
 
 ## Open Questions We’re Still Exploring
 
-- How do we ensure sustained alignment without stifling creativity?
-- What are the best practices for integrating AI across varied workflows?
+- How do we ensure sustained alignment without stifling creativity?  
+- What are the best practices for integrating AI across varied workflows?  
 - How can we measure the qualitative improvements brought by AI?
 
 ## If You're Solving Something Similar...
@@ -55,7 +55,8 @@ We are eager to collaborate with other teams facing similar challenges of integr
 
 ---
 
-🔗 **Explore More Perspectives**  
-📰 Medium Article: https://cadabrastudio.medium.com/ai-in-software-development-when-the-hype-meets-the-hard-work-8d08182c3632  
-📚 Notion Note: https://classy-sugar-6ff.notion.site/From-Tools-to-Teams-Designing-AI-Ready-Loops-for-Creative-Alignment-2b69b3e9140380149980c6a4ad3dc000?source=copy_link  
-🧩 Related Post: https://cadabra-engineering.github.io/posts/achieving-design-fidelity-in-code-conversion-with-ai/
+## 🔗 Explore More Perspectives
+
+📰 [Medium Article](https://cadabrastudio.medium.com/how-were-learning-to-build-with-ai-not-just-for-it-115141230982)  
+📚 [Notion Note](https://classy-sugar-6ff.notion.site/From-Tools-to-Teams-Designing-AI-Ready-Loops-for-Creative-Alignment-2b69b3e9140380149980c6a4ad3dc000?source=copy_link)  
+🧩 [Related Post](https://cadabra-engineering.github.io/posts/achieving-design-fidelity-in-code-conversion-with-ai/)
