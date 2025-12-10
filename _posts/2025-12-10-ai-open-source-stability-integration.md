@@ -1,7 +1,7 @@
 ---
 layout: post
-title: AI and Open Source: Rethinking Integration for Stability
-subtitle: Enhancing OSS systems by leveraging AI responsibly and securely
+title: "AI and Open Source: Rethinking Integration for Stability"
+subtitle: "Enhancing OSS systems by leveraging AI responsibly and securely"
 tags: [open source, ai integration, software architecture, oss vulnerabilities, dependency management, code validation, sbom, sca, secure coding, mlops, ci/cd, technical debt, ai-ready ux]
 date: 2025-12-10
 permalink: /posts/ai-open-source-rethinking-integration/
