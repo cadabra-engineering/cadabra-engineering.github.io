@@ -53,8 +53,8 @@ We invite collaboration and shared insights on ensuring AI-integrated systems ar
 
 ---
 
-## 🔗 Explore More Perspectives
+### 🔗 Explore More Perspectives
 
-📰 Medium Article: [AI and Open Source: Why “Just Use a Library” Doesn’t Work Anymore](https://cadabrastudio.medium.com/ai-and-open-source-why-just-use-a-library-doesnt-work-anymore-7bdbd3abf3e5?postPublishedType=repub)  
-📚 Notion Note: [AI Doesn’t Fix Technical Debt — It Accelerates It](https://classy-sugar-6ff.notion.site/AI-Doesn-t-Fix-Technical-Debt-It-Accelerates-It-2c59b3e9140380a39ed9e59ddc1f6913)  
-🧩 Related Post: [Building a Hybrid Development Loop with AI](https://cadabra-engineering.github.io/posts/building-hybrid-development-loop-with-ai/)
+- 📰 [Medium Article: *AI and Open Source — Why “Just Use a Library” Doesn’t Work Anymore*](https://cadabrastudio.medium.com/ai-and-open-source-why-just-use-a-library-doesnt-work-anymore-7bdbd3abf3e5?postPublishedType=repub)  
+- 📚 [Notion Note: *AI Doesn’t Fix Technical Debt — It Accelerates It*](https://classy-sugar-6ff.notion.site/AI-Doesn-t-Fix-Technical-Debt-It-Accelerates-It-2c59b3e9140380a39ed9e59ddc1f6913)  
+- 🧩 [Related Post: *Building a Hybrid Development Loop with AI*](https://cadabra-engineering.github.io/posts/building-hybrid-development-loop-with-ai/)
