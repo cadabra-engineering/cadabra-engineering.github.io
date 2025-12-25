@@ -19,6 +19,9 @@ permalink: /posts/beyond-traditional-seo-designing-for-ai-bots/
 > **Summary:**  
 > This post explores how Generative Engine Optimization (GEO) shifts web design toward AI-readable architectures, focusing on Answer-First content, llms.txt, and semantic markup to enable accurate interpretation and discovery by large language models.
 
+> **Cadabra Studio principle:**  
+> *We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.*
+
 ## Background
 
 The core challenge in today's digital landscape is the shift from optimizing websites for human users to optimizing for AI-driven agents such as ChatGPT, Perplexity, and Google's AI. These bots represent the primary "visitors" to modern websites, requiring a rethinking of web strategies away from purely aesthetic and superficial designs to semantically structured and data-rich formats that these AI systems can swiftly and accurately interpret. The transition necessitates a focus on "Generative Engine Optimization" (GEO), ensuring that crucial site data is accessible for consumption by AI, drastically impacting customer conversions and business visibility.
@@ -36,8 +39,6 @@ The legacy approach of concealing value propositions beneath layers of marketing
 ## The Shift We Made
 
 To adapt, we reduced emphasis on dense marketing content in favor of a streamlined "Answer-First" architecture. Sites began with concise, value-focused summaries to provide digestible "snippets" for AI. We introduced a llms.txt, guiding AI through site maps with explicit directions, and embedded robust Schema.org markups to enrich data with verified knowledge graphs. Adjustments for enhancing E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) became standard, integrating external citations and timestamps to enhance credibility and trust signals for AI evaluators.
-
-*At Cadabra Studio, we approach Generative Engine Optimization as an architectural challenge — designing systems that are readable, trustworthy, and actionable for AI agents.*
 
 ## What Worked (and What Still Doesn’t)
 
@@ -62,7 +63,8 @@ Post-adjustment, AI interpretability and site visibility in AI-driven searches s
 We invite collaboration with engineers and researchers tackling similar challenges in web development for AI optimizations. Your insights can contribute to mutually beneficial advancements in this evolving landscape.
 
 > Contact: hello@cadabra.studio  
-> More at: https://cadabra.studio
+> More at: [https://cadabra.studio/](https://cadabra.studio/)  
+> (Direct URL: https://cadabra.studio/)
 
 ---
 
