@@ -1,7 +1,7 @@
 ---
 layout: post
-title: When an MVP Stops Being an MVP — Engineering Challenges and Checkpoints in Product Development
-subtitle: Understanding the transition from rapid prototyping to sustainable growth
+title: "When an MVP Stops Being an MVP: Engineering Challenges and Checkpoints in Product Development"
+subtitle: "Understanding the transition from rapid prototyping to sustainable growth"
 tags:
   - product-development
   - architecture
