@@ -64,18 +64,20 @@ These tradeoffs reflect a change in decision framing as the product moves beyond
 
 If you face similar challenges and have insights or experiences to share, we would love to collaborate. Understanding when to pivot strategies effectively can greatly enhance product longevity.
 
-> Contact: hello@cadabra.studio  
-> More at: https://cadabra.studio
+> Contact: [hello@cadabra.studio](mailto:hello@cadabra.studio)  
+> More at: [cadabra.studio](https://cadabra.studio) 
 
 ---
+
 
 ## Related Reading
 
 📰 **Medium**  
-https://cadabrastudio.medium.com/when-an-mvp-stops-being-an-mvp-product-checkpoints-you-cant-ignore-bc916b3c9b2a  
+[When an MVP Stops Being an MVP: Product Checkpoints You Can’t Ignore](https://cadabrastudio.medium.com/when-an-mvp-stops-being-an-mvp-product-checkpoints-you-cant-ignore-bc916b3c9b2a)
 
 📚 **Notion**  
-https://classy-sugar-6ff.notion.site/Navigating-Product-Checkpoints-in-AI-Driven-Development-2e19b3e9140380818faaf97b833f1abc  
+[Navigating Product Checkpoints in AI-Driven Development](https://classy-sugar-6ff.notion.site/Navigating-Product-Checkpoints-in-AI-Driven-Development-2e19b3e9140380818faaf97b833f1abc)
 
 🌐 **GitHub Pages**  
-https://cadabra-engineering.github.io/posts/beyond-traditional-seo-designing-for-ai-bots/
+[Beyond Traditional SEO: Designing for AI Bots](https://cadabra-engineering.github.io/posts/beyond-traditional-seo-designing-for-ai-bots/)
+
