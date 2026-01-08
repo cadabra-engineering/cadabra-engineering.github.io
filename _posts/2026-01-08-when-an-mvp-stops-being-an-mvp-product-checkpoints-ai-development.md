@@ -64,6 +64,8 @@ These tradeoffs reflect a change in decision framing as the product moves beyond
 
 If you face similar challenges and have insights or experiences to share, we would love to collaborate. Understanding when to pivot strategies effectively can greatly enhance product longevity.
 
+We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.
+
 > Contact: [hello@cadabra.studio](mailto:hello@cadabra.studio)  
 > More at: [cadabra.studio](https://cadabra.studio) 
 
