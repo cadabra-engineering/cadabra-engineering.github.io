@@ -1,11 +1,11 @@
-```yaml
+---
 layout: post
 title: "Navigating AI-Induced Comprehension Debt in Software Development"
 subtitle: "Exploring the impact of AI-generated code and the necessary adaptation in engineering practices."
 tags: [comprehension debt, ai-generated software, technical debt, scaling challenges, architecture, software engineering, intellectual property, engineering practices, ai in development]
 date: 2026-01-21
 permalink: /posts/navigating-ai-induced-comprehension-debt/
-```
+---
 
 ## Background
 
