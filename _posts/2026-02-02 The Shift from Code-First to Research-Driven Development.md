@@ -3,7 +3,7 @@ layout: post
 title: "The Shift from Code-First to Research-Driven Development"
 subtitle: "Embracing Research-Driven Development in the Era of Generative AI"
 tags: [ai, research-driven development, software engineering, architecture, technical debt, generative era]
-date: 2026-02-04
+date: 2026-02-02
 permalink: /posts/shift-from-code-first-to-rdd/
 ---
 
