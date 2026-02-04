@@ -48,3 +48,21 @@ If you are facing similar challenges in balancing development velocity and engin
 
 > Contact: hello@cadabra.studio  
 > More at: [https://cadabra.studio](https://cadabra.studio)
+
+---
+
+> 💬 **We believe we can reframe software delivery from the ground up, where every decision, tool, and interaction is guided by contextual intelligence.**  
+> — *Cadabra Studio*
+
+---
+
+## Explore More Perspectives
+
+📰 **Medium Article**  
+[The Death of Build-First: Why Research-Driven Development is the Only Way to Survive the Generative Era](https://medium.com/@cadabrastudio/the-death-of-build-first-why-research-driven-development-is-the-only-way-to-survive-the-5da495cace76)
+
+📚 **Notion Note**  
+[Research-First Engineering – How to Build AI-Ready Systems with Contextual Intelligence](https://classy-sugar-6ff.notion.site/Research-First-Engineering-How-to-Build-AI-Ready-Systems-with-Contextual-Intelligence-2fd9b3e91403800782a1f1fd9a1d8bd5?source=copy_link)
+
+🧩 **Related Post**  
+[Addressing Comprehension Debt in AI-Generated Code](https://cadabra-engineering.github.io/posts/navigating-ai-induced-comprehension-debt/)
