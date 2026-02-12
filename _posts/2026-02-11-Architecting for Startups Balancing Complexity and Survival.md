@@ -61,5 +61,3 @@ We believe we can reframe software delivery from the ground up, where every deci
 
 ### 🧩 Related GitHub Post  
 [Shift from Code-First to Research-Driven Development](https://cadabra-engineering.github.io/posts/shift-from-code-first-to-rdd/)
-
-```
