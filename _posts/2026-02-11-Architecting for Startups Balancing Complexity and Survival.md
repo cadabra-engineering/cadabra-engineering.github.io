@@ -1,11 +1,11 @@
-```yaml
+---
 layout: post
-title: Architecting for Startups: Balancing Complexity and Survival
-subtitle: Avoiding the Overengineering Trap in Early-Stage Ventures
+title: "Architecting for Startups: Balancing Complexity and Survival"
+subtitle: "Avoiding the Overengineering Trap in Early-Stage Ventures"
 tags: [architecture, scalability, complexity, startup, engineering, decision-making, AI, design-principles]
 date: 2026-02-11
 permalink: /posts/architecting-for-startups-balancing-complexity-and-survival/
-```
+---
 
 ## Background
 
